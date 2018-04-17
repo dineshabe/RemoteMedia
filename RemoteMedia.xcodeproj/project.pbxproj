@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33E16DC4287892CB96BD089F /* Pods_RemoteMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FF1FFBCF06EAD88D928DF9 /* Pods_RemoteMedia.framework */; };
+		BC0C484C2086420000F792DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C484B2086420000F792DF /* AppDelegate.swift */; };
+		BC0C484E2086420000F792DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C484D2086420000F792DF /* ViewController.swift */; };
+		BC0C48512086420000F792DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0C484F2086420000F792DF /* Main.storyboard */; };
+		BC0C48532086420100F792DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0C48522086420100F792DF /* Assets.xcassets */; };
+		BC0C485F2086571100F792DF /* BonjourService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C485E2086571100F792DF /* BonjourService.swift */; };
+		BC0C48612086845500F792DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C48602086845500F792DF /* Constants.swift */; };
+		BC0C48632086851E00F792DF /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C48622086851E00F792DF /* UIColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20FF1FFBCF06EAD88D928DF9 /* Pods_RemoteMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		429A9C228651CAA10429DDB9 /* Pods-RemoteMedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteMedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteMedia/Pods-RemoteMedia.release.xcconfig"; sourceTree = "<group>"; };
+		5F964200698B895784DA5BA4 /* Pods-RemoteMedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteMedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteMedia/Pods-RemoteMedia.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0C48482086420000F792DF /* RemoteMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0C484B2086420000F792DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC0C484D2086420000F792DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC0C48502086420000F792DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC0C48522086420100F792DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC0C48542086420100F792DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0C485E2086571100F792DF /* BonjourService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourService.swift; sourceTree = "<group>"; };
+		BC0C48602086845500F792DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BC0C48622086851E00F792DF /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0C48452086420000F792DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E16DC4287892CB96BD089F /* Pods_RemoteMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631B27203936A90755C3E96F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20FF1FFBCF06EAD88D928DF9 /* Pods_RemoteMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC0C483F2086420000F792DF = {
+			isa = PBXGroup;
+			children = (
+				BC0C484A2086420000F792DF /* RemoteMedia */,
+				BC0C48492086420000F792DF /* Products */,
+				C46FF07D1F8EA499E3A0C3D1 /* Pods */,
+				631B27203936A90755C3E96F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0C48492086420000F792DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0C48482086420000F792DF /* RemoteMedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0C484A2086420000F792DF /* RemoteMedia */ = {
+			isa = PBXGroup;
+			children = (
+				BC0C485D208656F800F792DF /* Classes */,
+				BC0C485A20864C6C00F792DF /* Controllers */,
+				BC0C484B2086420000F792DF /* AppDelegate.swift */,
+				BC0C484F2086420000F792DF /* Main.storyboard */,
+				BC0C48522086420100F792DF /* Assets.xcassets */,
+				BC0C48542086420100F792DF /* Info.plist */,
+			);
+			path = RemoteMedia;
+			sourceTree = "<group>";
+		};
+		BC0C485A20864C6C00F792DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC0C484D2086420000F792DF /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC0C485D208656F800F792DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC0C485E2086571100F792DF /* BonjourService.swift */,
+				BC0C48602086845500F792DF /* Constants.swift */,
+				BC0C48622086851E00F792DF /* UIColor.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C46FF07D1F8EA499E3A0C3D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F964200698B895784DA5BA4 /* Pods-RemoteMedia.debug.xcconfig */,
+				429A9C228651CAA10429DDB9 /* Pods-RemoteMedia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0C48472086420000F792DF /* RemoteMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0C48572086420100F792DF /* Build configuration list for PBXNativeTarget "RemoteMedia" */;
+			buildPhases = (
+				9FB0F9E9E236A2D427FCE79B /* [CP] Check Pods Manifest.lock */,
+				BC0C48442086420000F792DF /* Sources */,
+				BC0C48452086420000F792DF /* Frameworks */,
+				BC0C48462086420000F792DF /* Resources */,
+				5D2383A72840A9B84415FC79 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteMedia;
+			productName = RemoteMedia;
+			productReference = BC0C48482086420000F792DF /* RemoteMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0C48402086420000F792DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = datatrix;
+				TargetAttributes = {
+					BC0C48472086420000F792DF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = BC0C48432086420000F792DF /* Build configuration list for PBXProject "RemoteMedia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC0C483F2086420000F792DF;
+			productRefGroup = BC0C48492086420000F792DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0C48472086420000F792DF /* RemoteMedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0C48462086420000F792DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0C48532086420100F792DF /* Assets.xcassets in Resources */,
+				BC0C48512086420000F792DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D2383A72840A9B84415FC79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RemoteMedia/Pods-RemoteMedia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Merhaba/Merhaba.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Merhaba.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteMedia/Pods-RemoteMedia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB0F9E9E236A2D427FCE79B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemoteMedia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0C48442086420000F792DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0C484E2086420000F792DF /* ViewController.swift in Sources */,
+				BC0C485F2086571100F792DF /* BonjourService.swift in Sources */,
+				BC0C484C2086420000F792DF /* AppDelegate.swift in Sources */,
+				BC0C48612086845500F792DF /* Constants.swift in Sources */,
+				BC0C48632086851E00F792DF /* UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC0C484F2086420000F792DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0C48502086420000F792DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0C48552086420100F792DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Debug;
+		};
+		BC0C48562086420100F792DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0C48582086420100F792DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F964200698B895784DA5BA4 /* Pods-RemoteMedia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3ZYSX3THV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RemoteMedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.datatrix.RemoteMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		BC0C48592086420100F792DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429A9C228651CAA10429DDB9 /* Pods-RemoteMedia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3ZYSX3THV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RemoteMedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.datatrix.RemoteMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0C48432086420000F792DF /* Build configuration list for PBXProject "RemoteMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0C48552086420100F792DF /* Debug */,
+				BC0C48562086420100F792DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0C48572086420100F792DF /* Build configuration list for PBXNativeTarget "RemoteMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0C48582086420100F792DF /* Debug */,
+				BC0C48592086420100F792DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0C48402086420000F792DF /* Project object */;
+}

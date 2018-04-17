@@ -1,0 +1,16 @@
+PODS:
+  - Merhaba (1.2.1)
+
+DEPENDENCIES:
+  - Merhaba
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Merhaba
+
+SPEC CHECKSUMS:
+  Merhaba: 79b6cc2eda88210d6c12001201c9549afa8bb1bc
+
+PODFILE CHECKSUM: 9f2554a60862307cc490e2cbad3b0783f4dc49ff
+
+COCOAPODS: 1.5.0
