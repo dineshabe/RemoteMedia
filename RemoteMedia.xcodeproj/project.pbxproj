@@ -13,8 +13,7 @@
 		BC0C48512086420000F792DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0C484F2086420000F792DF /* Main.storyboard */; };
 		BC0C48532086420100F792DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0C48522086420100F792DF /* Assets.xcassets */; };
 		BC0C485F2086571100F792DF /* BonjourService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C485E2086571100F792DF /* BonjourService.swift */; };
-		BC0C48612086845500F792DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C48602086845500F792DF /* Constants.swift */; };
-		BC0C48632086851E00F792DF /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C48622086851E00F792DF /* UIColor.swift */; };
+		BC0C48832087ACDF00F792DF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C48822087ACDF00F792DF /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +27,7 @@
 		BC0C48522086420100F792DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC0C48542086420100F792DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC0C485E2086571100F792DF /* BonjourService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourService.swift; sourceTree = "<group>"; };
-		BC0C48602086845500F792DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		BC0C48622086851E00F792DF /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		BC0C48822087ACDF00F792DF /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				BC0C485E2086571100F792DF /* BonjourService.swift */,
-				BC0C48602086845500F792DF /* Constants.swift */,
-				BC0C48622086851E00F792DF /* UIColor.swift */,
+				BC0C48822087ACDF00F792DF /* Logger.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -222,10 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC0C484E2086420000F792DF /* ViewController.swift in Sources */,
+				BC0C48832087ACDF00F792DF /* Logger.swift in Sources */,
 				BC0C485F2086571100F792DF /* BonjourService.swift in Sources */,
 				BC0C484C2086420000F792DF /* AppDelegate.swift in Sources */,
-				BC0C48612086845500F792DF /* Constants.swift in Sources */,
-				BC0C48632086851E00F792DF /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +364,10 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RemoteMedia/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.datatrix.RemoteMedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -389,7 +388,10 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RemoteMedia/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.datatrix.RemoteMedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
